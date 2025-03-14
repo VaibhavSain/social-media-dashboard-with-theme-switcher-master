@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #1d2029;
+    position: relative;
+}
+
+.bar {
+    background-color: #20222f;
+    width: 100%;
+    height:16rem;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.heading {
+    color: white;
+    font-size: 28px;
+    margin-left: 8rem;
+    margin-top:2rem;
+}
+.bar p {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 8rem;
+    margin-top: 0.5rem;
+}
+.mode {
+    height: 1.8rem;
+    width: 3.5rem;
+    background-color: #3dc1a3;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute; 
+    right: 10rem;
+    top: 2.2rem;
+    padding-left: 5px;
+    justify-content: left;
+    padding-right: 5px;
+}
+.mode:hover {
+    background-color: #333a56;
+    transition: 1.5;
+    justify-content: right;
+    color: white;
+}
+
+.circle {
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 25px;
+    background-color: #242a45;
+}
+.circle:hover {
+    transition: 2s;
+    background-color: white;
+}
+
+.modename {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    right: 14.5rem;
+    top: 2rem;
+}
+.facefull {
+    background-color: #252b43;
+    height: 14rem;
+    width: 14rem;
+    position: absolute;
+    left: 8rem;
+    border-top: 4px #2a89dd solid;
+    border-radius: 4px;
+    top: 9rem;
+}
+.facefull:hover {
+    cursor: pointer;
+    background-color: #333a56;
+}
+.facefull img {
+    position: absolute;
+    top: 1.9rem;
+    left:4rem;
+}
+.facefull i {
+    font-size: 14px ;
+    color: rgba(255, 255, 255, 0.4);
+    font-style: normal;
+    font-weight: 500;
+    position: absolute;
+    top: 2rem;
+    right: 4.5rem;
+}
+.facefull .count {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 4rem;
+    left: 3.5rem;
+}
+.facefull .follow {
+    color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top:8.5rem;
+    left: 3.3rem;
+    letter-spacing: 5px;
+}
+.facefull .today {
+    position: absolute;
+    top: 11rem;    
+    color: hsl(170, 63%, 41%);
+    left: 5rem;
+}
+.facefull .trend {
+    position: absolute;
+    top: 11.4rem;
+    left: 4.3rem;
+}
+.facefull2 {
+ position: absolute;
+ left: 26rem;
+}
+.facefull3 {
+    position: absolute;
+    left: 43rem;
+}
+.facefull4 {
+    position: absolute;
+    left: 61rem;
+}
+.heading2 {
+    position: absolute;
+    left:8rem;
+    color: white;
+    top: 26rem;
+}
+.short {
+    height: 7rem;
+    width: 14rem;
+    background-color:#252b43;
+    position: absolute;
+    left: 8rem;
+    top:30rem;
+    border-radius: 10px;
+}
+.short:hover {
+    background-color: #333a56;
+    cursor: pointer;
+}
+.short2 {
+    top: 38.5rem;
+}
+.short5 {
+    position: absolute;
+    left: 26rem;
+}
+.short3 {
+       position: absolute;
+       left: 43rem;
+}
+.short4 {
+       position: absolute;
+       left: 61rem;
+}
+.short8 {
+    position: absolute;
+    left: 61rem;
+    top: 38.5rem;
+}
+.short7 {
+    position: absolute;
+    left: 43rem;
+    top: 38.5rem;
+}
+.short6 {
+    position: absolute;
+    left: 26rem;
+    top: 38.5rem;
+}
+.info {
+    position: absolute;
+    left: 1.5rem;
+    font-size: 14px;
+    top: 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+.logo {
+    position: absolute;
+    right: 2rem;
+    top: 1.4rem;
+}
+.count1 {
+    position: absolute;
+    top: 3.5rem;
+    left: 1.5rem;
+    font-size: 32px;
+    color:white;
+}
+.grow {
+    position: absolute;
+    top: 4.5rem;
+    right: 2rem;
+    color: hwb(169 10% 25% / 0.878);
+    font-weight: bold;
+    font-size: 12px;
+}
+.iconimg {
+    position: absolute;
+    top: 4.8rem;
+    right: 3.4rem;
+}
+.facefull3 img {
+    left: 2.5rem;
+}
+.facefull3 .count {
+    left:4rem;
+}
+.facefull4 .today {
+    color: #b8475f;
+}
+.short2 .iconimg {
+    right: 4.4rem;
+}
+.short3 .iconimg {
+    right: 4.4rem;
+}
+.short4 .iconimg {
+    right: 4.4rem;
+}
+.short5 .grow {
+    color: #b8475f;
+}
+.short6 .iconimg {
+    right: 4.4rem;
+}
+.short7 .grow {
+    color: #b8475f;
+}
+.short8 .grow{
+    color: #b8475f;
+
+}
